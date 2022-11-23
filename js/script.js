@@ -1,4 +1,8 @@
-for (let i=1; i<101; i++) { //chiedo al programma di mostrare in console i numeri da uno a 100
+for (let i = 1; i < 101; i++) { //chiedo al programma di mostrare in console i numeri da uno a 100
     console.log(i)
+
+    if ((i%3) == 0) {
+        console.log("Fizz");
+    }
 
 }
