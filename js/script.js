@@ -1,9 +1,13 @@
 
 for (let i = 1; i < 101; i++) { //chiedo al programma di mostrare in console i numeri da uno a 100
     
+
+    let div = document.createElement("div")
+    
+
     if (i%3 === 0 && i%5 === 0) {
         console.log("FizzBuzz");
-
+        div.append(i)
     } else if (i%3 === 0) {
         console.log("Fizz");
 
@@ -15,8 +19,7 @@ for (let i = 1; i < 101; i++) { //chiedo al programma di mostrare in console i n
     }
 
 
-    let div = document.createElement("div")
-    div.append("Ciao")
+
     
     console.log(div.textContent) 
     
