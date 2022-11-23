@@ -9,8 +9,17 @@ for (let i = 1; i < 101; i++) { //chiedo al programma di mostrare in console i n
 
     } else if (i%5 === 0 ) {                      
         console.log("Buzz");
-        
+
     } else {
         console.log(i);
     }
+
+
+    let div = document.createElement("div")
+    div.append("Ciao")
+    
+    console.log(div.textContent) 
+    
 }
+
+
